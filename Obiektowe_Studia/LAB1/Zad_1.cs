@@ -14,6 +14,7 @@ namespace LAB1
             double a = doubleInput();
             double b = doubleInput();
             double c = doubleInput();
+            double d = doubleInput();
             double delta, x1, x2;
 
             if (a != 0)
