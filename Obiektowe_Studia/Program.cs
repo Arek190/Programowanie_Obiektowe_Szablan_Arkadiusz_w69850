@@ -1,5 +1,6 @@
 ﻿using LAB1;
 using LAB2;
+using LAB3;
 using System;
 using System.Threading.Channels;
 
@@ -10,7 +11,7 @@ namespace MojeZadania
         static void Main(string[] args)
         {
             {
-                Console.WriteLine("Wybierz laboratorium (1, 2): ");
+                Console.WriteLine("Wybierz laboratorium (1, 2, 3): /0 - Wyjście");
                 while (true)
                 {
                     Console.Write("Wybierz laboratorium: ");
@@ -23,6 +24,9 @@ namespace MojeZadania
                             break;
                         case 2:
                             Lab2.RunLab();
+                            break;
+                        case 3:
+                            Lab3.RunLab();
                             break;
                         case 0:
                             Close();
