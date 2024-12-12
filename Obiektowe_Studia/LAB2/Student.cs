@@ -11,7 +11,7 @@ namespace LAB2
     {
         private string firstName;
         private string lastName;
-        private double[] grades;
+        private double[] grades = new double[10]; // Maksymalnie 10 ocen
         private int countGrades;
 
         public Student(string firstName, string lastName)
@@ -19,6 +19,9 @@ namespace LAB2
             this.firstName = firstName;
             this.lastName = lastName;
         }
+
+        public string FirstName => firstName;
+        public string LastName => lastName;
 
         public double SredniaOcen
         {
@@ -30,7 +33,7 @@ namespace LAB2
                 {
                     sum += grades[i];
                 }
-                return sum / countGrades; //srednia
+                return sum / countGrades;
             }
         }
 

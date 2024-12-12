@@ -13,10 +13,11 @@ namespace LAB2
             Student student = new Student("Jan", "Nowak");
             student.AddGrades(4);
             student.AddGrades(5);
-            student.AddGrades(4.5);
-            student.AddGrades(3.5);
+            student.AddGrades(4);
+            student.AddGrades(3);
             student.AddGrades(2);
 
+            Console.WriteLine($"{student.FirstName} {student.LastName}, Średnia ocen: {student.SredniaOcen:F2}");
         }
 
     }
