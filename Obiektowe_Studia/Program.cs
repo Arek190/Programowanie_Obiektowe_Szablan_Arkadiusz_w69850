@@ -1,6 +1,7 @@
 ﻿using LAB1;
 using LAB2;
 using LAB3;
+using LAB4;
 using System;
 using System.Threading.Channels;
 
@@ -27,6 +28,9 @@ namespace MojeZadania
                             break;
                         case 3:
                             Lab3.RunLab();
+                            break;
+                        case 4:
+                            Lab4.RunLab();
                             break;
                         case 0:
                             Close();

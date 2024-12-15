@@ -11,7 +11,7 @@
             {
                 case 1:  Przyklad.RUN(); break;
                 default:
-                    Console.WriteLine("Błędny wybór zadania w LAB1.");
+                    Console.WriteLine("Błędny wybór zadania w LAB3.");
                     break;
             }
         }
