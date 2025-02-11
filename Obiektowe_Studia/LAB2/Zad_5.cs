@@ -22,6 +22,8 @@ namespace LAB2
             
             Console.WriteLine("Elementy w zakresie indeksów 2-6:");
             sumator.WypiszElementyWZakresie(2, 6);
+
+            
         }
     }
 }
