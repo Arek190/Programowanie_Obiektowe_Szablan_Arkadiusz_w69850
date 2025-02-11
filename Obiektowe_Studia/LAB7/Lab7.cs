@@ -1,4 +1,4 @@
-﻿namespace MojeZadania.LAB7;
+﻿namespace LAB7;
 
 public class Lab7
 {
@@ -11,7 +11,7 @@ public class Lab7
         {
             case 1:  ; break;
             default:
-                Console.WriteLine("Błędny wybór zadania w LAB3.");
+                Console.WriteLine("Błędny wybór zadania w LAB7.");
                 break;
         }
     }
